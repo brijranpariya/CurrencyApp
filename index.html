@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./Demo.js"></script>
+  </head>
+  <body>
+    <div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Currency</th>
+            <th>Quantity</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="addbtn-parent">
+        <button id="addAmount">Add Amount</button>
+      </div>
+      <div class="form-parent">
+        <form action="submit" class="amountForm">
+          <label for="amount">amount</label>
+          <input type="text" name="amount" id="amount" />
+          <label for="amount">quantity</label>
+          <input type="text" name="quantity" id="quantity" />
+          <div class="addbtn-parent">
+            <button type="submit">Add</button>
+          </div>
+        </form>
+        <form action="submit" class="calc">
+          <label for="given_amount">Given Amount : </label>
+          <input type="text" name="given_amount" id="given_amount" />
+          <label for="bill_amount">Bill Amount : </label>
+          <input type="text" name="bill_amount" id="bill_amount" />
+          <div class="addbtn-parent">
+            <button type="submit">Calculate</button>
+          </div>
+          <div class="calculations"></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

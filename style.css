@@ -1,0 +1,65 @@
+.table {
+  border: 1px solid rgb(210, 210, 210);
+  background-color: white;
+  border-radius: 6px;
+  padding: 2px;
+  font-size: 20px;
+  /* width: 300px; */
+}
+tr {
+  border-bottom: 1px solid rgb(51, 44, 44);
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.amountForm {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 8px;
+  border-radius: 6px;
+}
+form {
+  box-shadow: 10px 10px 10px gray;
+}
+table {
+  box-shadow: 10px 10px 10px gray;
+}
+
+button {
+  box-shadow: 5px 5px 5px gray;
+  padding: 5px;
+  color: white;
+  background-color: rgb(77, 138, 243);
+  border: none;
+  border-radius: 5px;
+}
+.addbtn-parent {
+  margin: 10px;
+}
+.calc {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 8px;
+  border-radius: 6px;
+}
+.form-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.calc .addbtn-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.calculations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
